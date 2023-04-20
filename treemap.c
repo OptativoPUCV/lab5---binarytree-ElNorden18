@@ -51,6 +51,7 @@ void insertTreeMap(TreeMap * tree, void* key, void * value) {
   if(tree->root == NULL)
   {
     tree->root = nuevoNodo;
+    return;
   }
   while(tree->current != NULL)
     {
@@ -64,7 +65,6 @@ void insertTreeMap(TreeMap * tree, void* key, void * value) {
           return;
         }
         tree->current = tree->current->right;
-
       }
       else
       {
