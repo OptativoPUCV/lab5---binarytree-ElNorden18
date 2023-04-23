@@ -221,3 +221,9 @@ Sun 23 Apr 2023 03:37:07 AM UTC:
  tests:  18|3
 total_score: 35/70
 debce51
+Sun 23 Apr 2023 03:37:33 AM UTC: 
+ treemap.c | 15 ++++++++++++---
+ 1 file changed, 12 insertions(+), 3 deletions(-)
+ tests:  18|3
+total_score: 35/70
+d67689f
